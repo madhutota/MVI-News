@@ -88,8 +88,8 @@ fun Article(article: ArticleDTO, onItemClick: (ArticleDTO) -> Unit) {
                 modifier = Modifier.fillMaxSize(),
                 verticalArrangement = Arrangement.Center
             ) {
-                article.title.let { ArticleTitle(title = it) }
-                article.description?.let { ArticleDescription(description = it) }
+                ArticleTitle(title = article.title)
+                ArticleDescription(description = article.description)
             }
         }
     }
