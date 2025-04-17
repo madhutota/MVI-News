@@ -51,6 +51,26 @@ retrofit = { module = "com.squareup.retrofit2:retrofit", version.ref = "retrofit
 okhttp-logging-interceptor = { module = "com.squareup.okhttp3:logging-interceptor", version.ref = "okhttp" }
 retrofit2-kotlinx-serialization-converter = { module = "com.jakewharton.retrofit:retrofit2-kotlinx-serialization-converter", version.ref = "retrofit2KotlinxSerializationConverter" }
 coil-compose = { module = "io.coil-kt:coil-compose", version.ref = "coilComposeVersion" }
+
+
+#testing
+annotation = { module = "androidx.annotation:annotation", version = "1.7.1" }
+junit-ktx = { module = "androidx.test.ext:junit-ktx", version = "1.1.5" }
+junit-ext = { module = "androidx.test.ext:junit", version = "1.1.5" }
+mockito = { module = "org.mockito:mockito-core", version = "5.5.0" }
+android-test-mockito = { module = "org.mockito:mockito-android", version = "5.5.0" }
+android-test-mockito-inline = { module = "org.mockito:mockito-inline", version = "4.0.0" }
+
+espresso = { module = "androidx.test.espresso:espresso-core", version = "3.5.1" }
+espresso-contrib = { module = "androidx.test.espresso:espresso-contrib", version = "3.5.1" }
+test-coroutines = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-test", version = "1.8.0" }
+
+
+
+#mockk
+mockk-android = { module = "io.mockk:mockk-android", version = "1.13.10" }
+mockk-agent = { module = "io.mockk:mockk-agent", version = "1.13.2" }
+
 [plugins]
 android-application = { id = "com.android.application", version.ref = "agp" }
 kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }

@@ -45,7 +45,6 @@ fun MainScreen(modifier: Modifier = Modifier, viewModel: MainViewModel = hiltVie
 
     when (data.value) {
         is MainViewState.Loading -> {
-
             Box(modifier = Modifier.fillMaxSize()) {
                 CircularProgressIndicator(modifier = Modifier.align(Alignment.Center))
             }
